@@ -3,14 +3,12 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-  <!-- Outer ring -->
-  <path
-      android:fillColor="#00000000"
-      android:pathData="M54,16 C73.33,16 89,31.67 89,51 C89,70.33 73.33,86 54,86 C34.67,86 19,70.33 19,51 C19,31.67 34.67,16 54,16 Z"
-      android:strokeWidth="6"
-      android:strokeColor="#FFFFFF" />
-  <!-- Center dot -->
+  <!-- Outer white circle centered at 54, 54 with radius 26 (fits safely inside 66dp Android adaptive safe zone) -->
   <path
       android:fillColor="#FFFFFF"
-      android:pathData="M54,38 C62.84,38 70,45.16 70,54 C70,62.84 62.84,70 54,70 C45.16,70 38,62.84 38,54 C38,45.16 45.16,38 54,38 Z" />
+      android:pathData="M54,28 C68.36,28 80,39.64 80,54 C80,68.36 68.36,80 54,80 C39.64,80 28,68.36 28,54 C28,39.64 39.64,28 54,28 Z" />
+  <!-- Inner black core centered at 54, 54 with radius 10 -->
+  <path
+      android:fillColor="#000000"
+      android:pathData="M54,44 C59.52,44 64,48.48 64,54 C64,59.52 59.52,64 54,64 C48.48,64 44,59.52 44,54 C44,48.48 48.48,44 54,44 Z" />
 </vector>
